@@ -1,7 +1,7 @@
 {
   "name": "gcode-lab",
   "productName": "G-Code Lab",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "G-Code Lab — симулятор стойки Fanuc: 3D-фрезеровка по G-коду",
   "author": {
     "name": "Олег Тануки",
@@ -57,7 +57,12 @@
       "installerIcon": "build/icon.ico",
       "uninstallerIcon": "build/icon.ico",
       "installerHeaderIcon": "build/icon.ico",
-      "deleteAppDataOnUninstall": false
+      "deleteAppDataOnUninstall": false,
+      "installerLanguages": [
+        "ru_RU"
+      ],
+      "language": "1049",
+      "uninstallDisplayName": "G-Code Lab"
     }
   },
   "allowScripts": {
